@@ -1,0 +1,9 @@
+{{define "title"}}tracker{{end}}
+
+{{define "body"}}
+<div class="container-fluid">
+  <div id="app"></div>
+</div>
+<script type="text/javascript">window.showData=JSON.parse({{.}})</script>
+<script type="text/javascript" src="dist/index.js"></script>
+{{end}}

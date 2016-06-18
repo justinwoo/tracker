@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "front end for tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -wdc --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Woo",
+  "license": "MIT",
+  "devDependencies": {
+    "@cycle/xstream-run": "3.0.x",
+    "@cycle/dom": "10.0.0-rc33",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1",
+    "xstream": "^5.0.5"
+  }
+}
